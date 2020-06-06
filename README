@@ -1,1 +1,3 @@
 Android bindings for liblouis, using the Android NDK: https://github.com/liblouis/liblouis
+
+https://github.com/DaveMielke/liblouis-android is another great library - but is using the old Ant build system, instead of gradle
