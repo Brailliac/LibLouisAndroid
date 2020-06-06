@@ -1,0 +1,2 @@
+rootProject.name='LibLouisAndroid'
+include ':app'
