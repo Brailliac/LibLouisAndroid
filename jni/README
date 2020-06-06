@@ -1,0 +1,2 @@
+When a new version of liblouis is available, download the release and install it as detailed at https://github.com/liblouis/liblouis#installation
+Directly replace the contents of jni/liblouis with the contents of the folder containing the new release
