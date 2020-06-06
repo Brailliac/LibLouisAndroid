@@ -15,15 +15,9 @@ import org.junit.Assert.*
  */
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
-    @Test
-    fun useAppContext() {
-        // Context of the app under test.
-        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("org.liblouis", appContext.packageName)
-    }
 
     @Test
     fun checkVersion() {
-        assertEquals(Louis.getVersion(), "2.6.5")
+        assertEquals(Louis.getVersion(), "3.14.0")
     }
 }
