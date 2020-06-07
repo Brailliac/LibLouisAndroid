@@ -704,6 +704,7 @@ lou_getTableInfo(const char *table, const char *key) {
 	return value;
 }
 
+/** @return a NULL terminated array of strings */
 char **EXPORT_CALL
 lou_listTables(void) {
 	void *tablesArray;
