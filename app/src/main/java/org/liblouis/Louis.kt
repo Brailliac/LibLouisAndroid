@@ -167,7 +167,7 @@ class Louis(context: Context) {
     }
 
     fun getBrailleTranslation(
-        table: TranslationTable?, text: CharSequence
+        table: TranslationTable, text: CharSequence
     ): BrailleTranslation {
         return TranslationBuilder()
             .setTranslationTable(table)
